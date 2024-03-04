@@ -6,21 +6,16 @@ This character ROM is combining multiple other character generator ROMs in one b
 - [Bit-Flipped](character_set_32_f.bin) - All bits in an address are flipped from MSB to LSB. This is useful if you want to set the bit-address for selection from left-to-right (like using a DIP switch).
 - [Reversed/Inverted & Bit-Flipped](character_set_32_rf.bin) - Combines the last two options in one: all addresses are inverted and the bits are flipped. Use this when using DIP switches to configure any RetroStack character generator adapters (like the [MCM776x character generator adapter](https://github.com/RetroStack/MCM776x_CharGen_Adapter)).
 
-This combined character set has two modes, which can be selected by toggling bit 5:
-- (`bit 5`=off) Combinations across all features and changes from the original. You can select each feature by toggling the bits. See below.
-- (`bit 5`=on) Sequential list of character sets listed below.
-
 ## Combinations and Features
 
 This mode is active when `bit 5` is off.
 
 |Bit|Description|Example Image|
 |-|-|-|
-|`1`|Floating "a"|![Mask 1](Images/Mask_1.jpg)|
-|`2`|Special characters like arrows & pound sign|![Mask 2](Images/Mask_2.jpg)|
-|`3`|Descenders|![Mask 3](Images/Mask_3.jpg)|
-|`4`|Duplicate capital letters|![Mask 4](Images/Mask_4.jpg)|
-|`5`|Switches mode between feature select and sequential charsets|-|
+|`1`|Floating "a"|![Mask 1](../Images/Mask_1.jpg)|
+|`2`|Special characters like arrows & pound sign|![Mask 2](../Images/Mask_2.jpg)|
+|`3`|Descenders|![Mask 3](../Images/Mask_3.jpg)|
+|`4`|Duplicate capital letters|![Mask 4](../Images/Mask_4.jpg)|
 
 ## Sequential Character Sets
 
