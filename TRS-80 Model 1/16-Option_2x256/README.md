@@ -1,4 +1,6 @@
-# TRS-80 Model 1 Character Generator ROMs - 16 Options - Suitable for 2x256 ROMs
+# TRS-80 Model 1 Character Generator ROMs - 16 Options
+
+*Suitable for 2x256 ROMs*
 
 ## Specific Versions
 
