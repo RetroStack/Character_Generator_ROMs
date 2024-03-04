@@ -1,6 +1,8 @@
 # TRS-80 Model 1 Character Generator ROMs - 32 Options - Suitable for 2x512 ROMs
 
-This character ROM is combining multiple other character generator ROMs in one binary to be able to select a specific ROM on-the-fly. There are four versions:
+This character ROM is combining multiple other character generator ROMs in one binary to be able to select a specific ROM on-the-fly. 
+
+There are four versions: (click to download)
 - [Normal](character_set_32.bin) - Here, all ROMs are sequentially listed. This is the default option.
 - [Reversed/Inverted](character_set_32_r.bin) - All address are inverted (effectively reversing the normal list). This is useful if your adapter uses active-low addressing. Use this when using solder jumpers or jumper caps to configure 
 - [Bit-Flipped](character_set_32_f.bin) - All bits in an address are flipped from MSB to LSB. This is useful if you want to set the bit-address for selection from left-to-right (like using a DIP switch).
