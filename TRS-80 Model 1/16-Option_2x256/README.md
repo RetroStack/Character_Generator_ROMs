@@ -47,4 +47,3 @@ This combined character set has all combinations across features and changes fro
 |`2`|Special characters like arrows & pound sign|![Mask 2](../Images/Mask_2.jpg)|
 |`3`|Descenders|![Mask 3](../Images/Mask_3.jpg)|
 |`4`|Duplicate capital letters|![Mask 4](../Images/Mask_4.jpg)|
-|`5`|Switches mode between feature select and sequential charsets|-|
