@@ -2,8 +2,6 @@
 
 Following is a list of various character generator ROMs that can be used with the TRS-80 Model 1.
 
-![Example ROM](Images/01.png)
-
 ## Individual ROMs
 
 These are individual ROMs to be used on its own.
