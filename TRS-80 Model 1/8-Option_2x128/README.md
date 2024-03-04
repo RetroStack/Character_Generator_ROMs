@@ -1,4 +1,6 @@
-# TRS-80 Model 1 Character Generator ROMs - 8 Options - Suitable for 2x128 ROMs
+# TRS-80 Model 1 Character Generator ROMs - 8 Options
+
+*Suitable for 2x128 ROMs*
 
 This character ROM is combining multiple other character generator ROMs in one binary to be able to select a specific ROM on-the-fly.
 
