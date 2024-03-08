@@ -1,6 +1,6 @@
 # TRS-80 Model 1 Character Generator ROMs - 16 Options
 
-*Suitable for 2x256 ROMs*
+*Suitable for 2x128 ROMs*
 
 ## Specific Versions
 
@@ -11,6 +11,8 @@ There are four versions (click to download):
 - [Reversed/Inverted](character_set_16s_r.bin) - All address are inverted (effectively reversing the normal list). This is useful if your adapter uses active-low addressing. Use this when using solder jumpers or jumper caps to configure 
 - [Bit-Flipped](character_set_16s_f.bin) - All bits in an address are flipped from MSB to LSB. This is useful if you want to set the bit-address for selection from left-to-right (like using a DIP switch).
 - [Reversed/Inverted & Bit-Flipped](character_set_16s_rf.bin) - Combines the last two options in one: all addresses are inverted and the bits are flipped. Use this when using DIP switches to configure any RetroStack character generator adapters (like the [MCM776x character generator adapter](https://github.com/RetroStack/MCM776x_CharGen_Adapter)).
+
+The following list is also available as a [printable PDF version](Configuration_Specific.pdf).
 
 |#|Bit Address (Normal)| Bit Address (Bit-Flipped)|Name|Source|Comment|Character Set|
 |-|-|-|-|-|-|-|
@@ -40,6 +42,8 @@ This character ROM is combining multiple other character generator ROMs in one b
 - [Reversed/Inverted & Bit-Flipped](character_set_16_rf.bin) - Combines the last two options in one: all addresses are inverted and the bits are flipped. Use this when using DIP switches to configure any RetroStack character generator adapters (like the [MCM776x character generator adapter](https://github.com/RetroStack/MCM776x_CharGen_Adapter)).
 
 This combined character set has all combinations across features and changes from the original. You can select each feature by toggling the bits.
+
+The following list is also available as a [printable PDF version](Configuration.pdf).
 
 |Bit|Description|Example Image|
 |-|-|-|
